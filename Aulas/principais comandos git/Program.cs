@@ -27,6 +27,7 @@ namespace ConsoleApp1
             //stash - reverte alterações recentes momentaneamente e armazena tais alteraçãoe em memória para recuperação depois
             //git checkout <nome da branch> -b <nome da nova branch> - cria uma nova branch e já faz o checkout nela
             //git push -d origin nova-feature -> deletar branch remota pelo terminal
+            //git revert HEAD --no-edit -> desfaz o último commit sem alterar o histórico de commits
 
         }
     }
