@@ -1,0 +1,16 @@
+Git Revert e Git Reset
+- Revertendo/ Desfazendo alterações no código
+
+Git Revert
+- Comando utilizado para desfazer mudanças em um repositório
+	Cria-se um commit que inverte todas as alterações desejadas
+	*git revert: não exclui nada da lista de commits/mantém histórico
+
+Git Reset
+- Desfaz as alterações salvas e colocao repositório no estado em que se encontrava anteriormente
+	Opções para o comando git reset
+	--soft: reseta apenas o "commit history" -> o que já foi commitado
+	--mixed: reseta o commit history e os arquivos staged -> reseta o commit e os arquivos adicionados (add) staged
+	--hard: reseta tudo - commit history, arquivos staged (add) e até arquivos "not staged"
+
+	Cuidado: o git reset pode fazer você perder seu processo - faça backup manuais
