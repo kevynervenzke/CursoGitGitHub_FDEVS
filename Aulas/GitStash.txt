@@ -1,0 +1,11 @@
+GitStash - "Guardando Código no bolso para usar depois"
+
+- Motivação: git impedindo merge e/ou publicação de alterações
+	Tentar forçar atualizações (pull/push)
+	Checkout a partir de uma branch com alterações não commitadas
+
+- Objetivo: reverter alterações momentaneamente porém mantendo tais alterações salvas em um lugar à parte para recuperação futura
+
+- git stash: guardar no stash
+- git stash pop: recuperar do stash
+	Solução de conflitos
