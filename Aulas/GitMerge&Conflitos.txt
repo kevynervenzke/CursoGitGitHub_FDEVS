@@ -1,0 +1,29 @@
+- O que são conflitos?
+É natural ter problemas ao mesclar códigos escritos por pessoas distintas
+Dois commits distintos realizados em um mesmo arquivo, em uma mesma linha de código
+
+Exemplos de comandos que podem gerar conflitos:
+- merge
+- rebase
+- pull
+- stash
+- apply
+
+Como resolver:
+- Escolher manter uma ou outra alteração
+- Escolher inserir as duas alterações (a ordem importa)
+- Remover ambas alterações
+- Cancelar o Merge
+
+Mantendo minha branch atualizada
+
+Merge da branch de desenvolvimento para minha Branch
+- Opções para solução dos eventuais conflitos
+1. Sozinho
+2. Em conjunto com o analista e/ou quem realizou a alteração conflitante com a minha
+
+Após o merge, minha branch estará "up to date", futuramente terá menos problemas para fazer PRs(Pull Requests)
+
+- Tenho alterações locais: ao tentar dar pull sou forçado a dar commit ou jogar códigos p/ stash
+- Commit -> quando tem certeza que terminou e está funcionando
+- Stash -> quando não tem certeza/inacabado

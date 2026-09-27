@@ -1,0 +1,36 @@
+Modelos de Controle de Versão
+Branches de State, Release e Feature
+Branch única
+GitHub Flow
+Git Flow
+fluxo de ações: git checkout
+
+Branch - Trilha de commit
+Branch de State, Release e Feature
+Branch diferentes para diferentes propósitos
+
+Diferentes modelos/fluxos, dependendo da empresa/projeto
+
+Branch de State:
+Branch "long-running":main e develop
+Refletem os estágios do ciclo de desenvolvimento
+Geralmente, não se faz commits diretamente nessas branches, mas sim em branches de feature ou hotfix, que depois são mescladas (merge) nas branches de State.
+
+Branch de Release:
+Branch "short-lived": feature e fixes
+Focada em novas funcionalidades ou correções de bugs
+Geralmente deletadas após integração com a branch de State
+
+Branch Única (Geralmente pra projetos menores/pessoais):
+Poucas ou única branch, commits relativamente pequenos
+
+GitHub Flow
+Modelo Enxuto
+	Apenas uma Branch "long-running"
+	Sem restrições para branches de fix, features, etc
+
+GitFlow
+Modelo mais estruturado, com mais regras
+	Duas ou mais branches "long-running" -> main, develop, feature/bug fix
+	Na branch develop da para fazer testes, com features correções de bugs, etc.
+	Sem restrições para branches de fix, featrues, etc.

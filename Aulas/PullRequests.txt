@@ -1,0 +1,16 @@
+Pull Requests
+
+Repositórios Públicos x Privados
+- Privado: Criar uma branch "short-lived" a partir da branch principal/desenvolvimento para depois fazer o pull request
+- Público: Fork do repositório (clonar o repositório) e depois faz pull request
+
+Code Review
+O que geralmente se olha em um code-review?
+- Boas Práticas (Identação, nome de variáveis ideais, um arquivo com mais de uma função/responsabilidade)
+- Conveções do time de desenvolvimento (regras de boa prática do time)
+
+Como resolver sugestões feitas por terceiros?
+- GitHub WEB: comentários
+	Commits com ajustes
+- "ping-pong" de réplicas e tréplicas até que todo mundo no code-review fiquem satisfeitos
+
